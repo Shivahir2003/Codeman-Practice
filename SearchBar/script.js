@@ -8,15 +8,16 @@ searchBtn.addEventListener('click', function(){
     {
         searchBox.value = '';
     }
-    // else{
-    // search.classList.add('active');
-    // }
-})
-
-searchBtn.addEventListener('mouseover', function(){
+    else{
     search.classList.add('active');
     searchBox.focus();
+    }
 })
+
+// searchBtn.addEventListener('mouseover', function(){
+//     search.classList.add('active');
+//     searchBox.focus();
+// })
 
 closeBtn.addEventListener('click', function(){
     search.classList.remove('active');
